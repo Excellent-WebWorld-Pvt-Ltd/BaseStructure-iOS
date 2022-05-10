@@ -1,0 +1,15 @@
+excluded:
+ - Pods
+ 
+disabled_rules:
+ - trailing_whitespace
+ - nesting
+ - cyclomatic_complexity
+ - function_body_length
+
+identifier_name:
+  min_length: # only min_length
+    error: 1 # only error
+  excluded: # excluded via string array
+    - id
+    - URL
