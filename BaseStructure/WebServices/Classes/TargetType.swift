@@ -29,6 +29,7 @@ enum Task {
     case plainRequest
     case withRequestModel(requestModel: Convertible, encoding: ApiService.Encoding)
     case withParameters(parameters: [ApiService.ParamKey: Any], encoding: ApiService.Encoding)
+    case multipart(parameters: [String: Any], files: [MimeTypes])
 }
 
 extension TargetType {

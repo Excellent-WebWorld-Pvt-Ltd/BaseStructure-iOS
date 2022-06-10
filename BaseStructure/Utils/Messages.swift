@@ -19,12 +19,17 @@ enum Messages {
 
     // validation
     static let emptyEmail = "Please enter email"
-    static let invalidEmail = "Plase enter valid email"
+    static let invalidEmail = "Please enter valid email"
     static let emptyPassword = "Please enter password"
     static let emptyConfirmPassword = "Please enter confirm password"
     static let confirmPasswordError = "Password and confirm password does not match"
     static let emptyFirstName = "Please enter first name"
     static let emptyLastName = "Please enter last name"
     static let emptyFullName = "Please enter full name"
+    static let pleaseEnter = "Please Enter"
+    static let pleaseEnterValid = "Please Enter valid"
+    static let specialCharacterNotAllowed = "Sorry! special characters are not allowed in"
+    static let invalidUsernameRange = "Username must be between 8 and 18 characters"
+    static let invalidPasswordRange = "Password must be between 8 and 25 characters"
 }
 // swiftlint:enable line_length
